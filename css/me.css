@@ -1,0 +1,12 @@
+#container {
+	grid-template-columns: 0px 1fr;
+}
+
+#main {
+	padding-left: 1.5em;
+}
+
+#resume:link, #resume:visited, #resume:hover, #resume:active {
+	color: black;
+	font-size: 1.5em;
+}

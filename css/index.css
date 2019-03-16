@@ -1,0 +1,40 @@
+h1 {
+	font-family: 'Amita', cursive;
+	font-size: 3em;
+	padding-left: 1em;	
+}
+
+h3 {
+	font-size: 1vw;
+}
+
+#header {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+		"logo title"
+		"subt subt";
+	}
+
+#logo {
+	grid-area: logo;
+	max-width: 100%;
+	padding-top: 1.5em;
+}
+
+#title {
+	grid-area: title;
+}
+
+#subtitle {
+	grid-area: subt;
+}
+
+#cat-img {
+	display: block;
+	margin: auto;
+	max-width: 40%;
+	border: 3em solid red;
+	border-radius: 50%;
+}

@@ -1,0 +1,17 @@
+@media (min-width:720px) {
+
+	#navbar {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+	}
+
+	#main-doc {
+		margin-left: 180px;
+	}
+	
+	header {
+		font-size: 2em;
+	}
+
+}

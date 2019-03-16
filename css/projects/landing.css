@@ -1,0 +1,23 @@
+@media (min-width: 100px) {
+	
+	#header {
+		position: fixed;		
+	}
+
+	video {
+		margin-top: 150px;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	form {
+		margin-top: 30px;
+	}
+
+}
+
+
