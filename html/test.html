@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="/js/test.js"></script>
 		<link rel="stylesheet" href="/css/test.css">
 		<link rel="stylesheet" href="/css/global.css">
 		<title>Testing Ground</title>
@@ -8,7 +9,7 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<h1>Testing page</h1>
+				<h1 id="title">Testing page</h1>
 			</div>
 
 			<div id="nav">
@@ -17,6 +18,16 @@
 				<a class="nav" href="/projects">Projects</a>
 				<a class="nav" href="/me">About Me</a>
 			</div>
-
+			
+			<div id="body">
+				<button type="button" onclick="alertFun()">Run Alert Test</button><br><br>
+				<form name="titleForm">
+					<input name="text" type="text">
+					<button type="button" onclick="changeFun()">Update Page Title</button>
+				</form><br><br>
+				<button type="button" onclick="webWorker()">Run Web Worker</button>
+				<p id="worker_data" >0</p>
+				<button type="button" onclick="killWorker()">Kill Web Worker</button>
+			</div>
 		</div>
 </html>
